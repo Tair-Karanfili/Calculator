@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+ public class App {
+    public static void main(String[] args) throws Exception {
+        System.out.println("Welcome");
+        Scanner scanner = new Scanner(System.in);
+        int firstNumber = scanner.nextInt();
+        int secondNumber = scanner.nextInt();
+        int sum = add(firstNumber, secondNumber);
+        System.out.println(sum);
+        int product = Multiply(firstNumber, secondNumber);
+        System.out.println(product);
+        int difference = subtract(firstNumber, secondNumber);
+        System.out.println(difference);
+    }
+
+   public static int Multiply(int firstNumber, int secondNumber) {
+       return firstNumber * secondNumber;
+   }
+
+  public static int add(int firstNumber, int secondNumber) {
+      return firstNumber + secondNumber;
+  }
+
+  public static int subtract(int firstNumber, int secondNumber) {
+      return firstNumber - secondNumber;
+  }
+}
