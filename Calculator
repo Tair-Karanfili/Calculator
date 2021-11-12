@@ -7,11 +7,11 @@ import java.util.Scanner;
         int firstNumber = scanner.nextInt();
         int secondNumber = scanner.nextInt();
         int sum = add(firstNumber, secondNumber);
-        System.out.println(sum);
+        System.out.println("Sum" + sum);
         int product = Multiply(firstNumber, secondNumber);
-        System.out.println(product);
+        System.out.println("Product" + product);
         int difference = subtract(firstNumber, secondNumber);
-        System.out.println(difference);
+        System.out.println("Difference" + difference);
     }
 
    public static int Multiply(int firstNumber, int secondNumber) {
